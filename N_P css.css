@@ -1,0 +1,332 @@
+* 
+{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: 1350px 600px;
+    background-color: floralwhite;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 90px;
+}
+
+header button 
+{
+  padding: 0px 16px;
+  margin-left: 0px;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-family: papyrus;
+  outline: none;
+}
+
+
+header button:hover 
+{
+  font-weight: bold;
+  font-style: italic;
+  background-color: #111;
+}
+
+
+header ul 
+{
+  list-style-type: none;
+  margin: 10px;
+  padding: 2px;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51, 0.8);
+}
+
+header li 
+{
+  float: left;
+}
+
+header li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: papyrus;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+
+header li a:hover 
+{
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  color: red;
+}
+
+
+.heading 
+{
+    font-size: 100px; 
+    text-align: center;
+    color: rgb(250, 0, 0);
+    font-family: 'Sofia';
+    font-weight: bold;
+}
+
+
+
+/* animations */
+.img {
+  width:100%;
+  transition: all 0.5s ease; 
+
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.img2 {
+  width:100%;
+  transition: all 0.5s ease; 
+
+}
+
+.img2:hover {
+  transform: scale(1.5);
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+.more-btn {
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 50px;
+  width: 150px;
+}
+
+.more-btn:hover {
+  transform: rotate(360deg);
+  height: 60px;
+  width: 160px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 80px;
+    height: 400px; 
+    margin-top:10px; 
+    /* Should be removed. Only for demonstration */
+  }
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content:"";
+    display:flex;
+    clear: both;
+    
+  }
+
+
+  /* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 80px;
+    height: 400px;
+    margin-top:10px; 
+    /* Should be removed. Only for demonstration */
+  }
+  
+
+
+  /* Clear floats after the columns */
+  .row1:after {
+    content:"";
+    display:flex;
+    clear: both;
+    
+  }
+
+
+
+  /* Create two equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 80px;
+    height: 400px;
+    margin-top:10px; 
+    /* Should be removed. Only for demonstration */
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content:"";
+    display:flex;
+    clear: both;
+    
+  }
+
+
+
+  form .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04AA6D;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  
+  form .button:hover{
+    color:black;
+    font-weight: bold;
+  }
+
+  
+
+  /* Footer */
+
+  .footer-basic 
+  {
+      padding:40px 0;
+      background-color: #181818;
+      margin-right: 5px;
+      margin-left: 5px;
+      color:#ffffff;
+      margin-bottom: 5px;
+  }
+    
+  .footer-basic ul 
+  {
+      padding:0;
+      list-style:none;
+      text-align:center;
+      font-size:18px;
+      line-height: 2rem;
+  }
+    
+  .footer-basic li 
+  {
+      padding: 0px 10px;
+      margin-left: 60px;
+      font-family: papyrus;
+      display: inline-block;
+  }
+    
+  .footer-basic ul a 
+  {
+      color:inherit;
+      text-decoration:none;
+  }
+    
+  .footer-basic ul a:hover 
+  {
+      opacity:1;
+      color: red;
+  }
+    
+  .footer-basic .social 
+  {
+      text-align:center;
+      padding-bottom:35px;
+  }
+    
+  .footer-basic .social > a 
+  {
+      font-size:24px;
+      width:40px;
+      height:40px;
+      line-height:40px;
+      display:inline-block;
+      text-align:center;
+      border-radius:50%;
+      border:1px solid #ccc;
+      margin:0 8px;
+      color:inherit;
+      opacity:0.75;
+  }
+    
+  .footer-basic .social > a:hover 
+  {
+      opacity:1;
+  }
+    
+  .footer-basic .copyright 
+  {
+      margin-top:15px;
+      text-align:center;
+      font-size:13px;
+      color:#aaa;
+      margin-bottom:0;
+      font-family: 'times new roman';
+      letter-spacing: 1.5px;
+      line-height: 2rem;
+  }
+
+
+  .user {
+    border-style: double;
+    margin-left: 50px;
+    margin-right:50px;
+    border: 10px double red;
+    border-radius: 120px;
+    background-color: rgb(255, 0, 0, 0.1);
+}
+
+  .ques {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .post button{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 500px;
+    outline: none;
+  }
+  
+  .post button:hover {
+    background-color: rgb(255, 0, 0);
+  }

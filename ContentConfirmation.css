@@ -1,0 +1,62 @@
+body {
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 1350px 700px;
+    text-align:center;
+}
+
+
+
+h1{
+    font-family: 'Sofia';
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Sofia';
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#first , #second{
+    font-size: 28px;
+    color: rgb(6, 173, 6);
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid red;
+    padding: 20px;  
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(255, 0, 0, 0.1);
+    background-color: rgb(225, 0, 0, 0.7);
+    width: 200px;
+}
+
+button:hover {
+    background-color: rgb(225, 0, 0, 0.9);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}

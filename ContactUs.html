@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" href="ContactUs.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="main">
+        <div class="split left"></div>
+        <div class="split right"></div>
+        <div class="container">
+            <div class="contactinfo">
+                <a href="Home.html"><img src="Logo.png" alt="Logo" width="60%" style="margin-left: 180px;"
+                        class="img"></a>
+                <h1>Contact Info</h1>
+                <ul class="info">
+                    <li>
+                        <i class="fas fa-address-card"></i>
+                        <span style="color: white;">CHANDIGARH UNIVERSITY <br> NH-95 Chandigarh-Ludhiana Highway <br>
+                            Mohali, Punjab <br> India</span>
+                    </li><br>
+                    <li>
+                        <i class="fas fa-mail-bulk"></i>
+                        <span style="color: white;">healthy.lifestyle247@gmail.com</span>
+                    </li><br>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        <span style="color: white;">+91-160-3051003</span>
+                    </li>
+                </ul>
+                <li>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/anujsoniofficial_01" target="_blank"> <i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/HealthTalks-111415274542390" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/anujsoni93837" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/anuj-soni-59ba961ba" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                </li>
+            </div>
+
+
+
+
+            <div class="contactform">
+                <div class="text">
+                    <h2>CONNECT WITH US</h2>
+                </div>
+
+                <form class="box" action="http://localhost/healthtalks/confirmation.php" method="POST">
+
+                    <div class="form">
+                        <input type="text" name="name" class="overflow" id="name" placeholder="Name" required>
+                        <input type="email" name="email" class="overflow" id="email" placeholder="E-mail" required>
+                        <br><br>
+                        <div class="block">
+
+                            <div style="display: flex;">
+                                <label for="gender">Select your GENDER: </label>
+                                <select name="gender" id="gender" required>
+                                    <option value="M">Male</option>
+                                    <option value="F">Female</option>
+                                    <option value="O">Others</option>
+                                </select>
+                            </div>
+
+
+
+                            <div style="display: flex;">
+                                <label for="age">Select your AGE-group: </label>
+                                <select name="age" id="age" required>
+                                    <option value="07-11">07 - 11 yrs</option>
+                                    <option value="08-18" selected>12 - 18 yrs</option>
+                                    <option value="19-28">19 - 28 yrs</option>
+                                    <option value="29-38">29 - 38 yrs</option>
+                                    <option value="39-48">39 - 48 yrs</option>
+                                    <option value="49-58">49 - 58 yrs</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button onclick="myFunc()">SUBSCRIBE ! </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function myFunc() {
+            if (confirm("Successfully Subscribed !")) { }
+        }
+    </script>
+
+
+</body>
+
+</html>

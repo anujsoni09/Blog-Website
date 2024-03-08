@@ -1,0 +1,298 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 90px;
+  }
+  
+  header button 
+  {
+    padding: 0px 16px;
+    margin-left: 0px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: papyrus;
+  }
+  
+  header button:hover 
+  {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #111;
+  }
+
+  body
+{
+    background-repeat: no-repeat;
+    background-size: 1350px 500px;
+    background-color: rgb(219, 218, 215);
+    text-align:center;
+}
+
+
+/* Navbar */
+
+header ul 
+{
+  list-style-type: none;
+  margin: 10px;
+  padding: 2px;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51, 0.8);
+}
+
+header li 
+{
+  float: left;
+}
+
+header li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: papyrus;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+
+header li a:hover 
+{
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  color: red;
+}
+
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'sofia';
+    font-size: 60px;
+    text-align: center;
+    color: red;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(31, 114, 67);
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(31, 114, 67);
+}
+p, main ul {
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+/* Footer */
+
+.footer-basic 
+{
+    padding:40px 0;
+    background-color: #181818;
+    margin-right: 5px;
+    margin-left: 5px;
+    color:#ffffff;
+    margin-bottom: 5px;
+}
+  
+.footer-basic ul 
+{
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height: 2rem;
+}
+  
+.footer-basic li 
+{
+    padding: 0px 10px;
+    margin-left: 60px;
+    font-family: papyrus;
+    display: inline-block;
+}
+  
+.footer-basic ul a 
+{
+    color:inherit;
+    text-decoration:none;
+}
+  
+.footer-basic ul a:hover 
+{
+    opacity:1;
+    color: red;
+}
+  
+.footer-basic .social 
+{
+    text-align:center;
+    padding-bottom:35px;
+}
+  
+.footer-basic .social > a 
+{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-basic .social > a:hover 
+{
+    opacity:1;
+}
+  
+.footer-basic .copyright 
+{
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+    font-family: 'times new roman';
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+}
+
+
+.img {
+    width:100%;
+    transition: all 0.5s ease; 
+  
+  }
+  
+  .img:hover {
+    transform: scale(1.4);
+  }
+  
+  
+  .zoom:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+  }
+
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.container .contactinfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+
+.container .contactinfo .box .text h3 {
+    font-family: 'Sofia';
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0;
+    color: red;
+}
+
+
+.container .contactinfo .box .text p {
+    color:rgb(31, 114, 67);
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: -250px;
+    margin-right: -200px;
+    margin-top: 0;
+    font-style: italic;
+}
+
+
+legend 
+  {
+    font-weight: bold;
+    font-family: papyrus;
+    font-size: 24px;
+  }
+
+
+  fieldset img {
+    border-radius: 20%;
+    box-shadow: 10px 10px 20px rgb(31, 114, 67);
+    width: 500px;
+    height: 300px;
+  }
+
+  h4 {
+    font-size: 40px;
+    color:rgb(31, 114, 67);
+    text-align: right;
+    font-weight: bold;
+  }
+
+.frontend, .backend {
+   margin: 100px;
+  }
